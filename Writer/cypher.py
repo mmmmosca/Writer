@@ -18,7 +18,7 @@ def encrypt(text):
             characters.append(char/2)
             print("#-_°=",end='')
         else:
-            characters.append(char)
+            characters.append(char/2)
     print("\n"+str(characters))
 
 encrypt(input())
