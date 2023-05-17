@@ -1,3 +1,4 @@
+import os
 characters = []
 def encrypt(text):
     for char in text:
@@ -21,4 +22,6 @@ def encrypt(text):
             characters.append(char/2)
     print("\n"+str(characters))
 
-encrypt(input())
+text = input()
+os.system("clear")
+encrypt(text)
