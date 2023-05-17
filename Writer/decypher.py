@@ -1,6 +1,6 @@
 import sympy 
 
-array = [56.0, 57.0, 55.5, 59.0, 48.5]
+array = []
 
 array = [num if isinstance(num, int) else int(num) if num.is_integer() else float(f'{num:.2f}') for num in array] 
                   
