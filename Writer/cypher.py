@@ -1,6 +1,6 @@
 import os
 characters = []
-def encrypt(text):
+def cypher(text):
     for char in text:
         char = ord(char)
         if char % 2 == 0:
@@ -24,4 +24,4 @@ def encrypt(text):
 
 text = input()
 os.system("clear")
-encrypt(text)
+cypher(text)
