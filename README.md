@@ -1,7 +1,5 @@
 # Writer
 
-Make sure that you have sympy installed.
-
 The cypher.py file asks you input, then it spits you out something like this:
 
 [.+%([.+%([.+%(};,!][.+%([.+%(
