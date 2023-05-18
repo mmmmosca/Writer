@@ -24,7 +24,7 @@ def cypher(text):
 
 text = input()
 if os.name == 'nt':
-        os.system('cls')  # Per Windows
-    else:
-        os.system('clear')
+	os.system('cls')  # Per Windows
+else:
+	os.system('clear')
 cypher(text)
