@@ -23,5 +23,8 @@ def cypher(text):
     print("\n"+str(characters))
 
 text = input()
-os.system("clear")
+if os.name == 'nt':
+        os.system('cls')  # Per Windows
+    else:
+        os.system('clear')
 cypher(text)
